@@ -28,33 +28,27 @@ main
 
 #primeiraTela
 {
-    width: 100%;
-    height: 100vh;
-    background-color: #ffd41f;
-    padding: 0 0.4rem; 
     display: flex;
-    flex-flow: column nowrap;
-    align-items: center;
-    justify-content: center; 
     opacity: 1;
-    transition: all .1s ease-in-out;   
 }
 
 #segundaTela
 {
-    width: 100%;
-    height: 100vh;
-    background-color: #ffd41f;
-    padding: 0 0.4rem; 
     padding-top: 4rem;
     display: flex;
     position: relative;
-    flex-flow: column nowrap;
-    align-items: center;
-    justify-content: start;  
     display: none; 
     opacity: 0; 
-    transition: all .1s ease-in-out;
+}
+
+.telas
+{
+    width: 100%;
+    height: 100vh;
+    padding: 0 0.4rem; 
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center; 
 }
 
 #barraDeNavegacao
