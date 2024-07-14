@@ -17,10 +17,8 @@ body
 
 main
 {
-    width: 100vw;
     height: 100vh;
     display: flex;
-    overflow: hidden;
     flex-flow: column nowrap;
     background-color: #ffd41f;
     padding: 0 1rem;
