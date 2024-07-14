@@ -10,6 +10,8 @@
 
 body
 {
+    width: 100vw;
+    height: 100vh;
     overflow-y: hidden;
 }
 
@@ -17,16 +19,17 @@ main
 {
     width: 100vw;
     height: 100vh;
+    overflow-y: hidden;
     display: flex;
     flex-flow: column nowrap;
     background-color: #ffd41f;
-    padding: 0 1rem;
 }
 
 #primeiraTela
 {
     width: 100vw;
     height: 100vh;
+    padding: 0 0.4rem; 
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
@@ -39,6 +42,7 @@ main
 {
     width: 100vw;
     height: 100vh;
+    padding: 0 0.4rem; 
     padding-top: 4rem;
     display: flex;
     position: relative;
