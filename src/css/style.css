@@ -23,6 +23,7 @@ main
     overflow: hidden;
     flex-flow: column nowrap;
     background-color: #ffd41f;
+    padding: 0 1rem;
 }
 
 #primeiraTela
@@ -87,6 +88,7 @@ main
 {
     width: 90%;
     color: rgb(30, 30, 30);
+    background-color: white;
     padding: 1rem 0;
     margin: 0.5rem 0;
     font-size: 24px;
