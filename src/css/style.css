@@ -22,13 +22,14 @@ main
     overflow-y: hidden;
     display: flex;
     flex-flow: column nowrap;
-    background-color: #ffd41f;
+
 }
 
 #primeiraTela
 {
-    width: 100vw;
+    width: 100%;
     height: 100vh;
+    background-color: #ffd41f;
     padding: 0 0.4rem; 
     display: flex;
     flex-flow: column nowrap;
@@ -40,8 +41,9 @@ main
 
 #segundaTela
 {
-    width: 100vw;
+    width: 100%;
     height: 100vh;
+    background-color: #ffd41f;
     padding: 0 0.4rem; 
     padding-top: 4rem;
     display: flex;
@@ -60,12 +62,17 @@ main
     top: 0;
     width: 100%;
     background-color: #fc6e3d;
-    padding: 1rem 2rem;
+    padding: 1rem;
 }
 
 #boataoVoltar
 {
     padding: 0.5rem;
+    color: rgb(30, 30, 30);
+    background-color: rgb(197, 197, 197);
+    font-size: 18px;
+    border: none;
+    border-radius: 30px;
 }
 
 #boataoVoltar::before
@@ -136,4 +143,29 @@ main
     100% {opacity: 1;}
     50% {opacity: 0.5;}
     0% {opacity: 0;}
+}
+
+@media (min-width: 600px)
+{
+    #primeiraTela, #segundaTela
+    {
+        width: 70%;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 870px)
+{
+    #primeiraTela, #segundaTela
+    {
+        width: 55%;
+    }
+}
+
+@media (min-width: 1100px)
+{
+    #primeiraTela, #segundaTela
+    {
+        width: 40%;
+    }
 }
