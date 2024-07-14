@@ -1,0 +1,128 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-family: sans-serif;
+    letter-spacing: 1.5px;
+}
+
+main
+{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: #ffd41f;
+}
+
+#primeiraTela
+{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center; 
+    opacity: 1;
+    transition: all .1s ease-in-out;   
+}
+
+#segundaTela
+{
+    width: 100vw;
+    height: 100vh;
+    padding-top: 4rem;
+    display: flex;
+    position: relative;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: start;  
+    display: none; 
+    opacity: 0; 
+    transition: all .1s ease-in-out;
+}
+
+#barraDeNavegacao
+{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: #fc6e3d;
+    padding: 1rem 2rem;
+}
+
+#boataoVoltar
+{
+    padding: 0.5rem;
+}
+
+#boataoVoltar::before
+{
+    content: '<- ';
+}
+
+#boataoVoltar:active
+{
+    transform: scale(1.05);
+}
+
+#apresentacaoDaPergunta
+{
+    font-size: 35px;
+    padding: 1rem;
+    text-align: center;
+}
+
+.botoesRespostas
+{
+    width: 90%;
+    color: rgb(30, 30, 30);
+    padding: 1rem 0;
+    margin: 0.5rem 0;
+    font-size: 24px;
+    border: none;
+    border-radius: 30px;
+}
+
+.botoesRespostas:active
+{
+    transform: scale(1.08);
+}
+
+#primeiraTela button
+{
+    font-size: 30px;
+    padding: 1rem 2rem;
+    border: none;
+    width: 80%;
+    border-radius: 30px;
+    background-color: #0074b4;
+    color: white;
+}
+
+#primeiraTela button:hover
+{
+    background-color: rgb(10, 45, 142);
+}
+
+#primeiraTela button:active
+{
+    transform: scale(1.11);
+}
+
+@keyframes aparecer
+{
+    0% {opacity: 0;}
+    30% {opacity: 0.3;}
+    60% {opacity: 0.6;}
+    100% {opacity: 1;}
+}
+
+@keyframes desaparecer
+{
+    100% {opacity: 1;}
+    50% {opacity: 0.5;}
+    0% {opacity: 0;}
+}
