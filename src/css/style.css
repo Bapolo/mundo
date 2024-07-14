@@ -13,6 +13,7 @@ main
     width: 100vw;
     height: 100vh;
     display: flex;
+    overflow: hidden;
     flex-flow: column nowrap;
     background-color: #ffd41f;
 }
@@ -71,7 +72,7 @@ main
 #apresentacaoDaPergunta
 {
     font-size: 35px;
-    padding: 1rem;
+    padding: 1rem 0;
     text-align: center;
 }
 
