@@ -646,13 +646,6 @@ window.addEventListener("load", () =>
             respostaCerta: "B"
         },
         {
-            pergunta: "Quem pintou 'A Noite Estrelada'?",
-            A: "Salvador Dalí",
-            B: "Vincent van Gogh",
-            C: "Paul Cézanne",
-            respostaCerta: "B"
-        },
-        {
             pergunta: "Qual é o maior deserto do mundo?",
             A: "Deserto do Saara",
             B: "Deserto da Arábia",
