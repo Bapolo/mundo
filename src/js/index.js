@@ -1000,6 +1000,7 @@ window.addEventListener("load", () =>
                 {
                     botaoClicado.style.backgroundColor = "#0f0"
                     somarPontos()
+                    perguntas.splice(indice, 1)
                     setTimeout(() =>
                     {                        
                         jogar()
