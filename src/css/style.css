@@ -44,10 +44,10 @@ main
 {
     position: absolute;
     top: 0;
-    margin: 15% 0;
+    margin: 20% 0;
     text-align: center;
     font-size: 2rem;
-    color: rgb(220, 220, 220);
+    color: rgb(17, 17, 17);
 }
 
 #pontos p
