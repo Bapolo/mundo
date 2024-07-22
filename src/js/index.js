@@ -1017,7 +1017,7 @@ window.addEventListener("load", () =>
                         }
                     })
                     
-                    pontos.innerHTML = `Pontuacão <br> ${pontuacao.value}`
+                    pontos.innerHTML = `Conheça o mundo: <p><br><br>Pontuação <br> ${pontuacao.value}</p>`
                     botaoClicado.style.backgroundColor = "#f00"
                     setTimeout(() => voltarNaTelaInicial(), 1000)                    
                 }

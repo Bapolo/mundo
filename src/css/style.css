@@ -50,6 +50,13 @@ main
     color: rgb(26, 26, 26);
 }
 
+#pontos p
+{
+
+    font-size: 2rem;
+    color: rgb(26, 26, 26);
+}
+
 footer
 {
     margin-top: 3.5rem;
