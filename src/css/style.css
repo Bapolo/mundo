@@ -46,14 +46,14 @@ main
     top: 0;
     margin: 20% 0;
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: rgb(26, 26, 26);
 }
 
 #pontos p
 {
 
-    font-size: 2rem;
+    font-size: 1.7rem;
     color: rgb(26, 26, 26);
 }
 
