@@ -32,11 +32,22 @@ main
     height: 100vh;
     padding: 0 0.4rem; 
     display: flex;
+    position: relative;
     flex-flow: column nowrap;
     align-items: center;
     justify-content: center; 
     opacity: 1;
     transition: all .1s ease-in-out;   
+}
+
+#pontos
+{
+    position: absolute;
+    top: 0;
+    margin: 20% 0;
+    text-align: center;
+    font-size: 2.5rem;
+    color: rgb(26, 26, 26);
 }
 
 #segundaTela
@@ -60,6 +71,8 @@ main
     position: absolute;
     top: 0;
     width: 100%;
+    display: flex;
+    justify-content: space-between;
     background-color: #fc6e3d;
     padding: 1rem;
 }
@@ -74,6 +87,7 @@ main
     border-radius: 30px;
 }
 
+
 #boataoVoltar::before
 {
     content: '<- ';
@@ -82,6 +96,12 @@ main
 #boataoVoltar:active
 {
     transform: scale(1.05);
+}
+
+#pontuacao
+{
+    font-size: 2rem;
+    color: #c5bdbd;
 }
 
 #apresentacaoDaPergunta
