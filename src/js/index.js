@@ -2,13 +2,6 @@ window.addEventListener("load", () =>
 {
     const perguntas = [
         {
-            pergunta: "Quem é conhecido como o pai da economia moderna?",
-            A: "Adam Smith",
-            B: "Karl Marx",
-            C: "John Maynard Keynes",
-            respostaCerta: "A"
-        },
-        {
             pergunta: "Quem pintou a Capela Sistina?",
             A: "Michelangelo",
             B: "Leonardo da Vinci",
@@ -21,20 +14,6 @@ window.addEventListener("load", () =>
             B: "Joule",
             C: "Pascal",
             respostaCerta: "A"
-        },
-        {
-            pergunta: "Qual é o maior país do mundo em área?",
-            A: "Canadá",
-            B: "China",
-            C: "Rússia",
-            respostaCerta: "C"
-        },
-        {
-            pergunta: "Quem ganhou a Copa do Mundo FIFA em 2018?",
-            A: "Brasil",
-            B: "Alemanha",
-            C: "França",
-            respostaCerta: "C"
         },
         {
             pergunta: "Qual é a fórmula do teorema de Pitágoras?",
@@ -618,13 +597,6 @@ window.addEventListener("load", () =>
             respostaCerta: "A"
         },
         {
-            pergunta: "Quem pintou a Capela Sistina?",
-            A: "Michelangelo",
-            B: "Leonardo da Vinci",
-            C: "Raphael",
-            respostaCerta: "A"
-        },
-        {
             pergunta: "Qual é a unidade de força no Sistema Internacional de Unidades?",
             A: "Newton",
             B: "Joule",
@@ -1004,7 +976,7 @@ window.addEventListener("load", () =>
                     setTimeout(() =>
                     {                        
                         jogar()
-                    }, 1500)
+                    }, 1300)
                 }
                 else
                 {
@@ -1027,7 +999,8 @@ window.addEventListener("load", () =>
 
     function jogar()
     {
-        indice = Math.round(Math.random() * (perguntas.length - 1))
+        indice = Math.ceil(Math.random() * (perguntas.length - 1))
+        console.log(indice)
         apresentacaoDaPergunta.innerHTML = perguntas[indice].pergunta
         opcaoA.innerHTML = perguntas[indice].A
         opcaoB.innerHTML = perguntas[indice].B
