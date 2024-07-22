@@ -441,7 +441,7 @@ window.addEventListener("load", () =>
 
     function somarPontos()
     {
-        pontuacao.innerHTML++ 
+        ++pontuacao.innerHTML 
     }
 
     
